@@ -1,0 +1,321 @@
+html,
+body {
+    margin: 0 auto;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+}
+
+
+* {
+    -webkit-box-sizing: content-box !important;
+    -moz-box-sizing: content-box !important;
+    box-sizing: content-box !important;
+}
+
+
+body {
+    background-image: url("stt.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+}
+
+
+.header {
+    background-color: transparent;
+    align-items: center;
+}
+
+
+
+.title {
+    margin: 0px;
+    margin-left: 3%;
+}
+
+.items {
+    opacity: 0.8;
+    color: #FFF;
+    list-style-type: none;
+    font-size: 14px;
+    display: flex;
+    vertical-align: auto;
+    margin-left: 10%;
+    position: absolute;
+    top: 15px;
+
+    font-weight: 560;
+}
+
+.items li {
+    margin-left: 18px;
+}
+
+.item1 {
+    font-weight: bold;
+}
+
+.lateral {
+    position: absolute;
+    right: 10%;
+    font-size: 20px;
+    top: 20px;
+    margin-top: 0px;
+    display: flex;
+    height: 100px;
+    width: 20%;
+}
+
+.btn-lupa,
+.btn-bell {
+    background: transparent;
+    margin-right: 50px;
+    border: none;
+    width: 20px;
+    height: 20px;
+    transition: 0.6s;
+    text-decoration: none;
+    z-index: 20;
+}
+
+.btn-lupa {
+    position: absolute;
+    margin-left: -61px;
+}
+
+.animacao-pesquisa {
+    position: absolute !important;
+    margin-left: -200px !important;
+    visibility: visible;
+    display: inline-block;
+    transition: 0.6s;
+}
+
+.input {
+    background-color: black;
+    color: white;
+    height: 30%;
+    position: relative;
+    top: -5px;
+    font-size: 14px;
+    width: 60%;
+    margin-left: -45%;
+    opacity: 0.7;
+    padding-left: 40px;
+    animation: aparece 0.6s alternate;
+    display: none;
+    transition: 0.6s;
+}
+
+.mostraInput {
+    transition: 0.6s;
+    display: inline-block;
+}
+
+
+@keyframes aparece {
+    0% {
+        width: 1%;
+    }
+
+
+    100% {
+        width: 60%;
+    }
+
+}
+
+
+.gp-icon {
+    margin-left: 30px !important
+}
+
+.imagem-perfil {
+    width: 60%;
+    height: 10% !important;
+    max-height: 100px !important;
+    max-width: 100px !important
+}
+
+.dropdown-toggle {
+    background: transparent !important;
+    border: none !important;
+    text-shadow: 0px !important;
+    position: relative;
+    top: -20px;
+    max-height: 100px;
+}
+
+.dropdown-menu,
+.dropdown-menu:hover {
+    position: relative;
+    max-height: 100px;
+    background-color: #333333 !important;
+}
+
+.dropdown-menu li a {
+    color: #cccccc !important;
+}
+
+
+.dropdown-menu>li>a:hover {
+    background-image: none !important;
+    background-color: #333333 !important;
+}
+
+.text {
+    position: absolute;
+    top: 35%;
+    margin: 20px;
+    margin-left: 60px;
+    color: white;
+    font-weight: 800;
+    text-shadow: 2px 2px #FF0000;
+    font-size: 25px;
+}
+
+
+.p {
+    width: 45%;
+    text-shadow: 2px 2px #000000;
+    font-size: 20px;
+}
+
+.btn-primary {
+    font-weight: 700 !important;
+}
+
+.botao-buttons {
+    color: white;
+    background-color: rgba(51, 51, 51, 0.4) !important;
+    background-image: none !important;
+    border-radius: 20px;
+    border: none !important;
+    width: 10%;
+    height: 5.5%;
+    font-weight: 1000;
+    font-size: 1.1vw !important;
+    margin-top: 30%;
+    margin-left: 3%;
+    padding-left: 4% !important;
+    transition: 0.2s;
+}
+
+.info-btn {
+    padding-left: 3.5% !important;
+}
+
+.icone {
+    margin-left: -60%;
+    margin-right: 15%;
+    color: white;
+
+}
+
+
+.botao-buttons:hover {
+    color: #000 !important;
+    background-color: #e6e6e6 !important;
+    transition: 0.2s;
+    width: 11%;
+    height: 7%;
+}
+
+.classificacao {
+    display: table-cell;
+    width: 8%;
+    height: 5%;
+    position: absolute;
+    right: 0px;
+    border-left: 6px solid white;
+    background-color: #333333;
+    opacity: 0.7;
+    margin: 0 auto;
+
+
+}
+
+
+.st-classificacao {
+    border: 1px solid red;
+    border-radius: 2px;
+    background-color: red;
+    font-size: 25px;
+    padding: 5px;
+    position: relative;
+    top: 6px;
+    vertical-align: middle;
+    opacity: 1;
+    text-align: center;
+    color: white;
+    font-weight: 900;
+    margin-left: 25px;
+
+}
+
+.series {
+    font-weight: 800;
+    color: white;
+    margin-left: 7%;
+    margin-top: 5%;
+    margin-bottom: -8%;
+}
+
+.titulosNetflix {
+    position: relative;
+    top: 20%;
+    width: 100%;
+    margin-left: 6%;
+    padding-bottom: 12%;
+}
+
+.titlesNetflix {
+    margin-right: 3px;
+    transition:1s;
+}
+
+.um, .dois, .tres, .quatro, .cinco{
+    transition: 1s;
+    position: relative;
+}   
+
+.um:hover{
+    transition: 1s;
+    transform: scale(1.2);
+    z-index:1000;
+}
+.dois:hover{
+    transition: 1s;
+    transform: scale(1.2);
+    z-index:1000;
+}
+.tres:hover{
+    transition: 1s;
+    transform: scale(1.2);
+    z-index:1000;
+}
+.quatro:hover{
+    transition: 1s;
+    transform: scale(1.2);
+    z-index:1000;
+}
+.cinco:hover{
+    transition: 1s;
+    transform: scale(1.2);
+    z-index:1000;
+}
+
+
+
+.infinite-titles {
+    margin-top: 10%;
+    background: rgb(24, 24, 25);
+    background: radial-gradient(circle, rgba(24, 24, 25, 1) 86%, rgba(0, 0, 0, 1) 100%, rgba(65, 65, 68, 1) 100%);
+    width: 100%;
+    height: 80%;
+}
+
